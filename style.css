@@ -1,0 +1,6 @@
+body{
+    background-color: white;
+}
+.header-menu li {
+    display: inline;
+}
