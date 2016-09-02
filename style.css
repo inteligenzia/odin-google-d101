@@ -1,6 +1,101 @@
+html {
+    height: 100%;
+}
 body{
     background-color: white;
+    font-family: arial, sans-serif;
+    height: 100%;
 }
-.header-menu li {
+
+#wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+
+
+#footer {
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#language-select {
+    color: #0000EE;
+}
+#header {
+    
+    height: 80px;
+    clear: both; 
+}
+.header-menu {
+    float: right;
+    margin-top: 10px;
+}
+
+.header-menu div {
+    float: left; 
+    height: 20px;
+    margin: 0 10px 0 10px;
+    font-size: 12px;
+}
+
+.link-menu {
+    padding-top: 5px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.grid {
+    background: url("sprite.png") -135px 25px;
+}
+
+.bell {
+    background: url("sprite.png") -194px -21px;
+    background-color: #757575;
+    border-radius: 25px;
+}
+
+#content {
+    margin: 80px auto 0 auto;
+    width: 585px;
+}
+
+#footer {
+    border-top: 1px solid #e4e4e4;
+    box-sizing: border-box;
+}
+
+#footer ul li {
     display: inline;
+}
+
+#footer ul li a{
+    margin: 0 20px 0 20px;
+    color: #666;
+}
+
+.footer-menu {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
 }
