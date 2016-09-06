@@ -46,7 +46,7 @@ a:hover {
 }
 
 .header-menu div {
-    float: left; 
+
     height: 20px;
     margin: 0 10px 0 10px;
     font-size: 12px;
@@ -151,3 +151,13 @@ button:hover {
 .pull-right {
     float: right;
 }
+
+/*Next page */
+
+.header-search {
+    background-color: #f1f1f1;
+    height: 55px;
+    padding-top: 10px;
+}
+
+
